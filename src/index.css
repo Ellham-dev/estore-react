@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme{
+}
+body{
+font-family: 'inter', serif;
+}
