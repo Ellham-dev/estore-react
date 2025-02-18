@@ -9,7 +9,7 @@ import { Link, NavLink } from "react-router"
 const Header = () => {
   return (
     <>
-      <section id="header" className="flex max-w-[1120px] items-center mx-auto justify-between h-[88px] gap-x-14 px-4 sm:px-8 md:px-12 lg:px-16 xl:px-32 2xl:px-64">
+      <header id="header" className="flex max-w-[1120px] items-center mx-auto justify-between h-[88px] gap-x-14 px-4 sm:px-8 md:px-12 lg:px-16 xl:px-32 2xl:px-64">
         {/* logo */}
         <div className="logo">
           <Link to="/"><img src={Logo} alt="logo" /></Link>
@@ -49,7 +49,7 @@ const Header = () => {
           <img src={Burger} alt="mobile icon" className="w-full cursor-pointer" />
         </div>
         {/* mobail_mood */}
-      </section>
+      </header>
     </>
   )
 }
