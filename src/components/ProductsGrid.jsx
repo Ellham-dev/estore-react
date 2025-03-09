@@ -9,7 +9,7 @@ const ProductsGrid = () => {
             <PopularProduct />
             <PopularProduct  className="bg-[#F9F9F9]"/>
             <PopularProduct className="bg-[#EAEAEA]" />
-            <PopularProduct  className="bg-[#2C2C2C]"/>
+            <PopularProduct  className="bg-[#2C2C2C] text-white"/>
           </div>
       </section>
     </>
