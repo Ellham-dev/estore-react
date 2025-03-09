@@ -21,42 +21,42 @@ const Sidebar = ({className}) => {
                             <h6 className="font-medium text-[15px] leading-6">Apple</h6>
                             <p className="text-[12px] leading-6">110</p>
                         </div>
-                        <div className="flex items-center gap-x-1 mt-4 mb-2">
+                        <div className="flex items-center gap-x-2 mt-4 mb-2">
                             <input type="checkbox" />
                             <h6 className="font-medium text-[15px] leading-6">Samsung</h6>
                             <p className="text-[12px] leading-6">122</p>
                         </div>
-                        <div className="flex items-center gap-x-1 mt-4 mb-2">
+                        <div className="flex items-center gap-x-2 mt-4 mb-2">
                             <input type="checkbox" />
                             <h6 className="font-medium text-[15px] leading-6">Xiaomi</h6>
                             <p className="text-[12px] leading-6">102</p>
                         </div>
-                        <div className="flex items-center gap-x-1 mt-4 mb-2">
+                        <div className="flex items-center gap-x-2 mt-4 mb-2">
                             <input type="checkbox" />
                             <h6 className="font-medium text-[15px] leading-6">Poco</h6>
                             <p className="text-[12px] leading-6">56</p>
                         </div>
-                        <div className="flex items-center gap-x-1 mt-4 mb-2">
+                        <div className="flex items-center gap-x-2 mt-4 mb-2">
                             <input type="checkbox" />
                             <h6 className="font-medium text-[15px] leading-6">OPPO</h6>
                             <p className="text-[12px] leading-6">78</p>
                         </div>
-                        <div className="flex items-center gap-x-1 mt-4 mb-2">
+                        <div className="flex items-center gap-x-2 mt-4 mb-2">
                             <input type="checkbox" />
                             <h6 className="font-medium text-[15px] leading-6">Honor</h6>
                             <p className="text-[12px] leading-6">97</p>
                         </div>
-                        <div className="flex items-center gap-x-1 mt-4 mb-2">
+                        <div className="flex items-center gap-x-2 mt-4 mb-2">
                             <input type="checkbox" />
                             <h6 className="font-medium text-[15px] leading-6">Motorola</h6>
                             <p className="text-[12px] leading-6">81</p>
                         </div>
-                        <div className="flex items-center gap-x-1 mt-4 mb-2">
+                        <div className="flex items-center gap-x-2 mt-4 mb-2">
                             <input type="checkbox" />
                             <h6 className="font-medium text-[15px] leading-6">Nokia</h6>
                             <p className="text-[12px] leading-6">46</p>
                         </div>
-                        <div className="flex items-center gap-x-1 mt-4 mb-2">
+                        <div className="flex items-center gap-x-2 mt-4 mb-2">
                             <input type="checkbox" />
                             <h6 className="font-medium text-[15px] leading-6">Realme</h6>
                             <p className="text-[12px] leading-6">118</p>
