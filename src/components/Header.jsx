@@ -35,7 +35,7 @@ const Header = () => {
               })} to="contact">Contact</NavLink></li>
               <li className=""> <NavLink style={({ isActive }) => ({
                 color: isActive ? "blue" : "black", fontWeight: isActive ? "bold" : "normal"
-              })} to="blog">Blog</NavLink></li>
+              })} to="shop">Shop</NavLink></li>
             </ul>
           </div>
 

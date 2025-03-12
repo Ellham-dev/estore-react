@@ -5,6 +5,7 @@ import About from "./pages/About"
 import Home from "./pages/Home"
 import RootLayout from "./layout/RootLayout"
 import Shop from "./pages/Shop"
+import SinglePageProduct from "./components/SinglePageProduct"
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="contact" element={<Contact/>}/>
         <Route path="blog" element={<Blog/>}/>
         <Route path="shop" element={<Shop/>}/>
+        <Route path="singlePage" element={<SinglePageProduct/>}/>
         </Route>
       </Routes>
     </>
