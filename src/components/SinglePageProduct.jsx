@@ -7,6 +7,7 @@ import Color_3 from "/color2.png"
 import Color_4 from "/color3.png"
 import Color_5 from "/color4.png"
 import { FaMobileScreenButton } from "react-icons/fa6"
+import { CiDeliveryTruck } from "react-icons/ci"
 
 
 const SinglePageProduct = () => {
@@ -27,9 +28,9 @@ const SinglePageProduct = () => {
               <li className="text-black">iPhone 14 Pro Max</li>
             </ul>
           </div>
-          <div className="flex items-center gap-x-12">
+          <div className="flex items-center gap-x-12 justify-between">
 
-            <div className="flex items-center">
+            <div className="flex items-center w-1/2">
               <div className="pr-12">
                 <img src={Iphone_14pro} alt="" className="mb-6 mt-9" />
                 <img src={Iphone_14pro} alt="" className="mb-6" />
@@ -41,7 +42,7 @@ const SinglePageProduct = () => {
               </div>
             </div>
             {/* secont_part_start */}
-            <div className="">
+            <div className="w-1/2 py-28">
               <div className="mb-4">
                 <h3 className="text-[40px] font-bold leading-10 mb-6">Apple iPhone 14 Pro Max</h3>
                 <div className="flex items-center gap-x-4">
@@ -59,20 +60,85 @@ const SinglePageProduct = () => {
                   <img src={Color_5} alt="" className=" cursor-pointer" />
                 </div>
               </div>
-              <div className="flex items-center gap-x-4">
-                <button className="border border-[#D5D5D5] text-sm leading-4 font-medium text-[#6F6F6F] px-6 py-4 rounded-xl w-[122px] cursor-pointer">128GB</button>
-                <button className="border border-[#D5D5D5] text-sm leading-4 font-medium text-[#6F6F6F] px-6 py-4 rounded-xl w-[122px] cursor-pointer">256GB</button>
-                <button className="border border-[#D5D5D5] text-sm leading-4 font-medium text-[#6F6F6F] px-6 py-4 rounded-xl w-[122px] cursor-pointer">512GB</button>
-                <button className="border border-black text-sm leading-4 font-medium px-6 py-4 rounded-xl w-[122px] cursor-pointer">1TB</button>
+              <div className="flex items-center gap-x-4 mb-6">
+                <button className="border border-[#D5D5D5] text-sm leading-4 font-medium text-[#6F6F6F] px-6 py-4 rounded-xl w-[122px] cursor-pointer outline-none">128GB</button>
+                <button className="border border-[#D5D5D5] text-sm leading-4 font-medium text-[#6F6F6F] px-6 py-4 rounded-xl w-[122px] cursor-pointer outline-none">256GB</button>
+                <button className="border border-[#D5D5D5] text-sm leading-4 font-medium text-[#6F6F6F] px-6 py-4 rounded-xl w-[122px] cursor-pointer outline-none">512GB</button>
+                <button className="border border-black text-sm leading-4 font-medium px-6 py-4 rounded-xl w-[122px] cursor-pointer outline-none">1TB</button>
               </div>
-              <div className="">
-                <div className="bg-[#A7A7A7] w-[168px]">
+              <div className="flex items-center flex-wrap gap-x-4 gap-y-4 mb-6">
+                <div className="bg-[#A7A7A7] w-[168px] flex items-center gap-x-2 px-2 rounded-lg">
                 <FaMobileScreenButton size={24}/>
-                <div className="text-sm leading-4 text-[#4E4E4E]">
+                <div className="text-sm leading-4 text-[#4E4E4E] py-4">
                   <h6 className="">Screen size</h6>
                   <p className="font-medium">6.7"</p>
                 </div>
                 </div>
+                <div className="bg-[#A7A7A7] w-[168px] flex items-center gap-x-2 px-2 rounded-lg">
+                <FaMobileScreenButton size={24}/>
+                <div className="text-sm leading-4 text-[#4E4E4E] py-4">
+                  <h6 className="">Screen size</h6>
+                  <p className="font-medium">6.7"</p>
+                </div>
+                </div>
+                <div className="bg-[#A7A7A7] w-[168px] flex items-center gap-x-2 px-2 rounded-lg">
+                <FaMobileScreenButton size={24}/>
+                <div className="text-sm leading-4 text-[#4E4E4E] py-4">
+                  <h6 className="">Screen size</h6>
+                  <p className="font-medium">6.7"</p>
+                </div>
+                </div>
+                <div className="bg-[#A7A7A7] w-[168px] flex items-center gap-x-2 px-2 rounded-lg">
+                <FaMobileScreenButton size={24}/>
+                <div className="text-sm leading-4 text-[#4E4E4E] py-4">
+                  <h6 className="">Screen size</h6>
+                  <p className="font-medium">6.7"</p>
+                </div>
+                </div>
+                <div className="bg-[#A7A7A7] w-[168px] flex items-center gap-x-2 px-2 rounded-lg">
+                <FaMobileScreenButton size={24}/>
+                <div className="text-sm leading-4 text-[#4E4E4E] py-4">
+                  <h6 className="">Screen size</h6>
+                  <p className="font-medium">6.7"</p>
+                </div>
+                </div>
+                <div className="bg-[#A7A7A7] w-[168px] flex items-center gap-x-2 px-2 rounded-lg">
+                <FaMobileScreenButton size={24}/>
+                <div className="text-sm leading-4 text-[#4E4E4E] py-4">
+                  <h6 className="">Screen size</h6>
+                  <p className="font-medium">6.7"</p>
+                </div>
+                </div>
+              </div>
+              <div className="mb-8">
+                <p className="text-sm leading-6 tracking-[3%] w-[536px] text-[#6C6C6C]">Enhanced capabilities thanks toan enlarged display of 6.7 inchesand work without rechargingthroughout the day. Incredible photosas in weak, yesand in bright lightusing the new systemwith two cameras <span className="text-[#2C2C2C]">more...</span></p>
+              </div>
+              <div className="space-x-3 flex items-center mb-8">
+                <button className=" border px-18 py-4 font-medium text-[16px] leading-6 rounded-md outline-none">Add to Wishlist</button>
+                <button className=" border px-[84px] py-4 font-medium text-[16px] leading-6 rounded-md bg-black text-white outline-none">Add to Card</button>
+              </div>
+              <div className="space-x-8 flex items-center">
+              <div className="flex items-center gap-x-4 w-[157px]">
+                <div className="bg-[#F6F6F6] flex items-center justify-center h-[56px] w-[56px] rounded-xl">
+                <CiDeliveryTruck size={24} className=""/>
+                </div>
+                <p className="w-[100px] text-sm leading-6 font-medium">Free Delivery
+                1-2 day</p>
+              </div>
+              <div className="flex items-center gap-x-4 w-[157px]">
+                <div className="bg-[#F6F6F6] flex items-center justify-center h-[56px] w-[56px] rounded-xl">
+                <CiDeliveryTruck size={24} className=""/>
+                </div>
+                <p className="w-[100px] text-sm leading-6 font-medium">Free Delivery
+                1-2 day</p>
+              </div>
+              <div className="flex items-center gap-x-4 w-[157px]">
+                <div className="bg-[#F6F6F6] flex items-center justify-center h-[56px] w-[56px] rounded-xl">
+                <CiDeliveryTruck size={24} className=""/>
+                </div>
+                <p className="w-[100px] text-sm leading-6 font-medium">Free Delivery
+                1-2 day</p>
+              </div>
               </div>
             </div>
           </div>
