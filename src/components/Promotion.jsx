@@ -4,7 +4,7 @@ const Promotion = () => {
   return (
     <>
       <section className='relative'>
-        <div className="">
+        <div className="max-w-[1440px] m-auto">
           <img src={PromotionBG} alt="" />
         </div>
         <div className="absolute top-[140px] left-1/2 -translate-x-1/2 text-white text-center">

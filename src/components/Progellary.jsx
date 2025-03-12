@@ -10,7 +10,7 @@ const Progellary = () => {
         <div className="max-w-[1440px] m-auto flex">
           {/* part_1 */}
           <div className="w-1/2">
-            <div className="main flex items-center">
+            <div className="flex items-center">
               <div className="w-[360px]">
                 <img src={play} alt="" className='w-full'/>
               </div>
@@ -54,9 +54,6 @@ const Progellary = () => {
             <div className="">
               <img src={macpro} alt="" />
             </div>
-
-
-
           </div>
         </div>
       </section>
