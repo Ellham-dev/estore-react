@@ -6,7 +6,7 @@ import Color_2 from "/color1.png"
 import Color_3 from "/color2.png"
 import Color_4 from "/color3.png"
 import Color_5 from "/color4.png"
-import { FaMobileScreenButton, FaRegStarHalfStroke, FaStar } from "react-icons/fa6"
+import { FaMobileScreenButton, FaRegStar, FaRegStarHalfStroke, FaStar } from "react-icons/fa6"
 import { CiDeliveryTruck } from "react-icons/ci"
 import { GiBattery75, GiConfirmed, GiProcessor } from "react-icons/gi"
 import { GoCpu } from "react-icons/go"
@@ -16,6 +16,8 @@ import { RiHomeSmileLine } from "react-icons/ri"
 import UserPic from "/User.png"
 import Review1P from "/Review1.png"
 import Review2P from "/Review2.png"
+import UserPic3 from "/User3.png"
+import UserPic2 from "/User2.png"
 
 
 const SinglePageProduct = () => {
@@ -269,7 +271,7 @@ const SinglePageProduct = () => {
             </div>
             <div className="w-[1000px]">
               <div className="flex items-center justify-between mb-2">
-                <h6 className="text-[17px] leading-6 font-bold">Grace Carey</h6>
+                <h6 className="text-[17px] leading-6 font-bold">Ronald Richards</h6>
                 <p className="text-sm leading-4 font-medium">24 January,2025</p>
               </div>
               <div className="flex items-center text-[#FFB547] w-[116px] mb-2">
@@ -277,7 +279,7 @@ const SinglePageProduct = () => {
                 <FaStar size={24} />
                 <FaStar size={24} />
                 <FaStar size={24} />
-                <FaRegStarHalfStroke size={24} />
+                <FaStar size={24} />
               </div>
               <p className="text-[15px] leading-6 font-medium text-[#7E7E7E]">I was a bit nervous to be buying a secondhand phone from Amazon, but I couldn’t be happier with my purchase!! I have a pre-paid data plan so I was worried that this phone wouldn’t connect with my data plan, since the new phones don’t have the physical Sim tray anymore, but couldn’t have been easier! I bought an Unlocked black iPhone 14 Pro Max in excellent condition and everything is PERFECT. It was super easy to set up and the phone works and looks great. It truly was in excellent condition. Highly recommend!!!🖤</p>
 
@@ -285,7 +287,7 @@ const SinglePageProduct = () => {
           </div>
           <div className="flex gap-x-5 bg-[#FAFAFA] py-6 pr-7 pl-4 rounded-xl mb-6">
             <div className="">
-              <img src={UserPic} alt="" />
+              <img src={UserPic2} alt="" />
             </div>
             <div className="w-[1000px]">
               <div className="flex items-center justify-between mb-2">
@@ -305,11 +307,11 @@ const SinglePageProduct = () => {
           </div>
           <div className="flex gap-x-5 bg-[#FAFAFA] py-6 pr-7 pl-4 rounded-xl mb-6">
             <div className="">
-              <img src={UserPic} alt="" />
+              <img src={UserPic3} alt="" />
             </div>
             <div className="w-[1000px]">
               <div className="flex items-center justify-between mb-2">
-                <h6 className="text-[17px] leading-6 font-bold">Grace Carey</h6>
+                <h6 className="text-[17px] leading-6 font-bold">Darcy King</h6>
                 <p className="text-sm leading-4 font-medium">28 December,2024</p>
               </div>
               <div className="flex items-center text-[#FFB547] w-[116px] mb-2">
@@ -317,7 +319,7 @@ const SinglePageProduct = () => {
                 <FaStar size={24} />
                 <FaStar size={24} />
                 <FaStar size={24} />
-                <FaRegStarHalfStroke size={24} />
+                <FaRegStar size={24} />
               </div>
               <p className="text-[15px] leading-6 font-medium text-[#7E7E7E] mb-2">I might be the only one to say this but the camera is a little funky. Hoping it will change with a software update: otherwise, love this phone! Came in great condition</p>
               <div className="flex items-center gap-x-2">
