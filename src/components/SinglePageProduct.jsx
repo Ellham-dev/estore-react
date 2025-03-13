@@ -6,12 +6,12 @@ import Color_2 from "/color1.png"
 import Color_3 from "/color2.png"
 import Color_4 from "/color3.png"
 import Color_5 from "/color4.png"
-import { FaMobileScreenButton } from "react-icons/fa6"
+import { FaMobileScreenButton, FaRegStarHalfStroke, FaStar } from "react-icons/fa6"
 import { CiDeliveryTruck } from "react-icons/ci"
 import { GiBattery75, GiConfirmed, GiProcessor } from "react-icons/gi"
 import { GoCpu } from "react-icons/go"
 import { IoCamera } from "react-icons/io5"
-import { IoMdReverseCamera } from "react-icons/io"
+import { IoIosArrowDown, IoMdReverseCamera } from "react-icons/io"
 import { RiHomeSmileLine } from "react-icons/ri"
 
 
@@ -73,46 +73,46 @@ const SinglePageProduct = () => {
               </div>
               <div className="flex items-center flex-wrap gap-x-4 gap-y-4 mb-6">
                 <div className="bg-[#F4F4F4] w-[168px] flex items-center gap-x-2 px-2 rounded-lg">
-                <FaMobileScreenButton size={24}/>
-                <div className="text-sm leading-4 text-[#4E4E4E] py-4">
-                  <h6 className="">Screen size</h6>
-                  <p className="font-medium">6.7"</p>
-                </div>
-                </div>
-                <div className="bg-[#F4F4F4] w-[168px] flex items-center gap-x-2 px-2 rounded-lg">
-                <GiProcessor size={24}/>
-                <div className="text-sm leading-4 text-[#4E4E4E] py-4">
-                  <h6 className="">CPU</h6>
-                  <p className="font-medium">Apple A16 Bionic</p>
-                </div>
+                  <FaMobileScreenButton size={24} />
+                  <div className="text-sm leading-4 text-[#4E4E4E] py-4">
+                    <h6 className="">Screen size</h6>
+                    <p className="font-medium">6.7"</p>
+                  </div>
                 </div>
                 <div className="bg-[#F4F4F4] w-[168px] flex items-center gap-x-2 px-2 rounded-lg">
-                <GoCpu size={24}/>
-                <div className="text-sm leading-4 text-[#4E4E4E] py-4">
-                  <h6 className="">Number of Cores</h6>
-                  <p className="font-medium">6</p>
-                </div>
-                </div>
-                <div className="bg-[#F4F4F4] w-[168px] flex items-center gap-x-2 px-2 rounded-lg">
-                <IoCamera size={24}/>
-                <div className="text-sm leading-4 text-[#4E4E4E] py-4">
-                  <h6 className="">Main camera</h6>
-                  <p className="font-medium">48-12 -12 MP</p>
-                </div>
+                  <GiProcessor size={24} />
+                  <div className="text-sm leading-4 text-[#4E4E4E] py-4">
+                    <h6 className="">CPU</h6>
+                    <p className="font-medium">Apple A16 Bionic</p>
+                  </div>
                 </div>
                 <div className="bg-[#F4F4F4] w-[168px] flex items-center gap-x-2 px-2 rounded-lg">
-                <IoMdReverseCamera size={24}/>
-                <div className="text-sm leading-4 text-[#4E4E4E] py-4">
-                  <h6 className="">Front-camera</h6>
-                  <p className="font-medium">12 MP</p>
-                </div>
+                  <GoCpu size={24} />
+                  <div className="text-sm leading-4 text-[#4E4E4E] py-4">
+                    <h6 className="">Number of Cores</h6>
+                    <p className="font-medium">6</p>
+                  </div>
                 </div>
                 <div className="bg-[#F4F4F4] w-[168px] flex items-center gap-x-2 px-2 rounded-lg">
-                <GiBattery75 size={24}/>
-                <div className="text-sm leading-4 text-[#4E4E4E] py-4">
-                  <h6 className="">Battery capacity</h6>
-                  <p className="font-medium">4323 mAh</p>
+                  <IoCamera size={24} />
+                  <div className="text-sm leading-4 text-[#4E4E4E] py-4">
+                    <h6 className="">Main camera</h6>
+                    <p className="font-medium">48-12 -12 MP</p>
+                  </div>
                 </div>
+                <div className="bg-[#F4F4F4] w-[168px] flex items-center gap-x-2 px-2 rounded-lg">
+                  <IoMdReverseCamera size={24} />
+                  <div className="text-sm leading-4 text-[#4E4E4E] py-4">
+                    <h6 className="">Front-camera</h6>
+                    <p className="font-medium">12 MP</p>
+                  </div>
+                </div>
+                <div className="bg-[#F4F4F4] w-[168px] flex items-center gap-x-2 px-2 rounded-lg">
+                  <GiBattery75 size={24} />
+                  <div className="text-sm leading-4 text-[#4E4E4E] py-4">
+                    <h6 className="">Battery capacity</h6>
+                    <p className="font-medium">4323 mAh</p>
+                  </div>
                 </div>
               </div>
               <div className="mb-8">
@@ -123,27 +123,136 @@ const SinglePageProduct = () => {
                 <button className=" border px-[84px] py-4 font-medium text-[16px] leading-6 rounded-md bg-black text-white outline-none cursor-pointer">Add to Card</button>
               </div>
               <div className="space-x-8 flex items-center">
-              <div className="flex items-center gap-x-4 w-[157px]">
-                <div className="bg-[#F6F6F6] flex items-center justify-center h-[56px] w-[56px] rounded-xl">
-                <CiDeliveryTruck size={24} className=""/>
+                <div className="flex items-center gap-x-4 w-[157px]">
+                  <div className="bg-[#F6F6F6] flex items-center justify-center h-[56px] w-[56px] rounded-xl">
+                    <CiDeliveryTruck size={24} className="" />
+                  </div>
+                  <p className="w-[100px] text-sm leading-6 font-medium">Free Delivery
+                    1-2 day</p>
                 </div>
-                <p className="w-[100px] text-sm leading-6 font-medium">Free Delivery
-                1-2 day</p>
-              </div>
-              <div className="flex items-center gap-x-4 w-[157px]">
-                <div className="bg-[#F6F6F6] flex items-center justify-center h-[56px] w-[56px] rounded-xl">
-                <RiHomeSmileLine size={24} className=""/>
+                <div className="flex items-center gap-x-4 w-[157px]">
+                  <div className="bg-[#F6F6F6] flex items-center justify-center h-[56px] w-[56px] rounded-xl">
+                    <RiHomeSmileLine size={24} className="" />
+                  </div>
+                  <p className="w-[100px] text-sm leading-6 font-medium">Stock
+                    Today</p>
                 </div>
-                <p className="w-[100px] text-sm leading-6 font-medium">Stock
-                Today</p>
-              </div>
-              <div className="flex items-center gap-x-4 w-[157px]">
-                <div className="bg-[#F6F6F6] flex items-center justify-center h-[56px] w-[56px] rounded-xl">
-                <GiConfirmed size={24} className=""/>
+                <div className="flex items-center gap-x-4 w-[157px]">
+                  <div className="bg-[#F6F6F6] flex items-center justify-center h-[56px] w-[56px] rounded-xl">
+                    <GiConfirmed size={24} className="" />
+                  </div>
+                  <p className="w-[100px] text-sm leading-6 font-medium"> Guaranteed
+                    1 year</p>
                 </div>
-                <p className="w-[100px] text-sm leading-6 font-medium"> Guaranteed
-                1 year</p>
               </div>
+            </div>
+          </div>
+          <div className="bg-[#d5d5d59d] w-full rounded-lg px-10 py-12 ">
+            <div className="">
+              <div className="">
+                <h5 className="text-2xl font-medium leading-8 mb-12">Details</h5>
+                <p className="text-sm font-medium leading-6 mb-8">Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.</p>
+              </div>
+              <div className="">
+                <h6 className="text-xl font-medium leading-6 mb-4">Screen</h6>
+                <div className="flex items-center justify-between mb-6">
+                  <h6 className="text-[16px] leading-6">Screen diagonal</h6>
+                  <p className="text-[15px] leading-6">6.7"</p>
+                </div>
+                <div className="flex items-center justify-between mb-6">
+                  <h6 className="text-[16px] leading-6">The screen resolution</h6>
+                  <p className="text-[15px] leading-6">2796x1290</p>
+                </div>
+                <div className="flex items-center justify-between mb-6">
+                  <h6 className="text-[16px] leading-6">The screen refresh rate</h6>
+                  <p className="text-[15px] leading-6">120 Hz</p>
+                </div>
+                <div className="flex items-center justify-between mb-6">
+                  <h6 className="text-[16px] leading-6">The pixel density</h6>
+                  <p className="text-[15px] leading-6">460 ppi</p>
+                </div>
+                <div className="flex items-center justify-between mb-6">
+                  <h6 className="text-[16px] leading-6">Screen type</h6>
+                  <p className="text-[15px] leading-6">OLED</p>
+                </div>
+                <div className="flex justify-between mb-6">
+                  <h6 className="text-[16px] leading-6">Additionally</h6>
+                  <p className="text-[15px] leading-6 text-end">Dynamic Island<br />Always-On display<br />HDR display<br />True Tone<br />Wide color (P3)</p>
+                </div>
+                <div className="">
+                  <h6 className="text-xl font-medium leading-6 mb-4">CPU</h6>
+                  <div className="flex items-center justify-between mb-6">
+                    <h6 className="text-[16px] leading-6">CPU</h6>
+                    <p className="text-[15px] leading-6">A16 Bionic</p>
+                  </div>
+                  <div className="flex items-center justify-between mb-8">
+                    <h6 className="text-[16px] leading-6">Number of cores</h6>
+                    <p className="text-[15px] leading-6">6</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center gap-x-2 justify-center ">
+              <h6 className="text-sm font-medium leading-6">View More</h6>
+              <IoIosArrowDown size={24} />
+            </div>
+          </div>
+          {/* review_part */}
+
+          <div className="mt-[88px]">
+            <div className="mb-12 ">
+              <h6 className="text-2xl leading-8 font-medium">Reviews</h6>
+            </div>
+            <div className="flex items-center justify-between">
+              <div className=" bg-[#FAFAFA] w-[184px] rounded-3xl">
+                <div className="p-8 flex flex-col items-center">
+                  <h3 className="text-[56px] leading-14 font-medium mb-4">4.8</h3>
+                  <p className="text-[15px] leading-4 font-medium mb-4">of 125 reviews</p>
+                  <div className="flex items-center text-[#FFB547] w-[116px]">
+                    <FaStar size={24} />
+                    <FaStar size={24} />
+                    <FaStar size={24} />
+                    <FaStar size={24} />
+                    <FaRegStarHalfStroke size={24} />
+                  </div>
+                </div>
+              </div>
+              <div className="">
+                <div className="flex items-center gap-x-4 mb-6">
+                  <h5 className="text-lg leading-4 font-medium w-[150px]">Excellent</h5>
+                  <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
+                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{width: "100%"}}></div>
+                  </div>
+                  <p>100</p>
+                </div>
+                <div className="flex items-center gap-x-4 mb-6">
+                  <h5 className="text-lg leading-4 font-medium w-[150px]">Good</h5>
+                  <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
+                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{width: "80%"}}></div>
+                  </div>
+                  <p>8</p>
+                </div>
+                <div className="flex items-center gap-x-4 mb-6">
+                  <h5 className="text-lg leading-4 font-medium w-[150px]">Average</h5>
+                  <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
+                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{width: "70%"}}></div>
+                  </div>
+                  <p>7</p>
+                </div>
+                <div className="flex items-center gap-x-4 mb-6">
+                  <h5 className="text-lg leading-4 font-medium w-[150px]">Below Average</h5>
+                  <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
+                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{width: "60%"}}></div>
+                  </div>
+                  <p className="self-end">6</p>
+                </div>
+                <div className="flex items-center gap-x-4">
+                  <h5 className="text-lg leading-4 font-medium w-[150px]">Poor</h5>
+                  <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
+                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{width: "5%"}}></div>
+                  </div>
+                  <p>1</p>
+                </div>
               </div>
             </div>
           </div>
