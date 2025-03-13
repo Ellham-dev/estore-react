@@ -147,7 +147,7 @@ const SinglePageProduct = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#d5d5d59d] w-full rounded-lg px-10 py-12 ">
+          <div className="bg-[#d5d5d53b] w-full rounded-lg px-10 py-12 ">
             <div className="">
               <div className="">
                 <h5 className="text-2xl font-medium leading-8 mb-12">Details</h5>
@@ -203,7 +203,7 @@ const SinglePageProduct = () => {
             <div className="mb-12 ">
               <h6 className="text-2xl leading-8 font-medium">Reviews</h6>
             </div>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between p-2 mb-12">
               <div className=" bg-[#FAFAFA] w-[184px] rounded-3xl">
                 <div className="p-8 flex flex-col items-center">
                   <h3 className="text-[56px] leading-14 font-medium mb-4">4.8</h3>
@@ -221,41 +221,45 @@ const SinglePageProduct = () => {
                 <div className="flex items-center gap-x-4 mb-6">
                   <h5 className="text-lg leading-4 font-medium w-[150px]">Excellent</h5>
                   <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
-                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{width: "100%"}}></div>
+                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "100%" }}></div>
                   </div>
                   <p>100</p>
                 </div>
                 <div className="flex items-center gap-x-4 mb-6">
                   <h5 className="text-lg leading-4 font-medium w-[150px]">Good</h5>
                   <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
-                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{width: "80%"}}></div>
+                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "80%" }}></div>
                   </div>
                   <p>8</p>
                 </div>
                 <div className="flex items-center gap-x-4 mb-6">
                   <h5 className="text-lg leading-4 font-medium w-[150px]">Average</h5>
                   <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
-                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{width: "70%"}}></div>
+                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "70%" }}></div>
                   </div>
                   <p>7</p>
                 </div>
                 <div className="flex items-center gap-x-4 mb-6">
                   <h5 className="text-lg leading-4 font-medium w-[150px]">Below Average</h5>
                   <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
-                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{width: "60%"}}></div>
+                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "60%" }}></div>
                   </div>
                   <p className="self-end">6</p>
                 </div>
                 <div className="flex items-center gap-x-4">
                   <h5 className="text-lg leading-4 font-medium w-[150px]">Poor</h5>
                   <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
-                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{width: "5%"}}></div>
+                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "5%" }}></div>
                   </div>
                   <p>1</p>
                 </div>
               </div>
             </div>
+            <div className="">
+              <input type="text" placeholder="Leave Comment" className="text-sm leading-4 tracking-[-0.5%] w-full border border-[#CECECE] outline-none rounded-xl py-6 px-4 mb-8"/>
+            </div>
           </div>
+          {/* comment_part */}
 
         </div>
 
