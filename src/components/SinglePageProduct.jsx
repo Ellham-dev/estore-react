@@ -18,6 +18,7 @@ import Review1P from "/Review1.png"
 import Review2P from "/Review2.png"
 import UserPic3 from "/User3.png"
 import UserPic2 from "/User2.png"
+import Product from "./Product"
 
 
 const SinglePageProduct = () => {
@@ -51,7 +52,7 @@ const SinglePageProduct = () => {
                 <img src={Iphone_14pro_big} alt="" className="w-[413px] h-[517px]" />
               </div>
             </div>
-            {/* secont_part_start */}
+            {/* second_part_start */}
             <div className="w-1/2 py-28">
               <div className="mb-4">
                 <h3 className="text-[40px] font-bold leading-10 mb-6">Apple iPhone 14 Pro Max</h3>
@@ -197,136 +198,155 @@ const SinglePageProduct = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center gap-x-2 justify-center ">
-              <h6 className="text-sm font-medium leading-6">View More</h6>
-              <IoIosArrowDown size={24} />
+            <div className="flex justify-center">
+              <button className="flex items-center gap-x-2 justify-center border px-12 py-3 rounded-xl  cursor-pointer">
+                View More
+                <IoIosArrowDown size={24} />
+              </button>
             </div>
           </div>
           {/* review_part */}
 
-          <div className="mt-[88px]">
-            <div className="mb-12 ">
-              <h6 className="text-2xl leading-8 font-medium">Reviews</h6>
-            </div>
-            <div className="flex items-center justify-between p-2 mb-12">
-              <div className=" bg-[#FAFAFA] w-[184px] rounded-3xl">
-                <div className="p-8 flex flex-col items-center">
-                  <h3 className="text-[56px] leading-14 font-medium mb-4">4.8</h3>
-                  <p className="text-[15px] leading-4 font-medium mb-4">of 125 reviews</p>
-                  <div className="flex items-center text-[#FFB547] w-[116px]">
-                    <FaStar size={24} />
-                    <FaStar size={24} />
-                    <FaStar size={24} />
-                    <FaStar size={24} />
-                    <FaRegStarHalfStroke size={24} />
+          <div className="py-[88px]">
+            <div className="">
+              <div className="mb-12 ">
+                <h6 className="text-2xl leading-8 font-medium">Reviews</h6>
+              </div>
+              <div className="flex items-center justify-between p-2 mb-12">
+                <div className=" bg-[#FAFAFA] w-[184px] rounded-3xl">
+                  <div className="p-8 flex flex-col items-center">
+                    <h3 className="text-[56px] leading-14 font-medium mb-4">4.8</h3>
+                    <p className="text-[15px] leading-4 font-medium mb-4">of 125 reviews</p>
+                    <div className="flex items-center text-[#FFB547] w-[116px]">
+                      <FaStar size={24} />
+                      <FaStar size={24} />
+                      <FaStar size={24} />
+                      <FaStar size={24} />
+                      <FaRegStarHalfStroke size={24} />
+                    </div>
+                  </div>
+                </div>
+                <div className="">
+                  <div className="flex items-center gap-x-4 mb-6">
+                    <h5 className="text-lg leading-4 font-medium w-[150px]">Excellent</h5>
+                    <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
+                      <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "100%" }}></div>
+                    </div>
+                    <p>100</p>
+                  </div>
+                  <div className="flex items-center gap-x-4 mb-6">
+                    <h5 className="text-lg leading-4 font-medium w-[150px]">Good</h5>
+                    <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
+                      <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "80%" }}></div>
+                    </div>
+                    <p>8</p>
+                  </div>
+                  <div className="flex items-center gap-x-4 mb-6">
+                    <h5 className="text-lg leading-4 font-medium w-[150px]">Average</h5>
+                    <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
+                      <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "70%" }}></div>
+                    </div>
+                    <p>7</p>
+                  </div>
+                  <div className="flex items-center gap-x-4 mb-6">
+                    <h5 className="text-lg leading-4 font-medium w-[150px]">Below Average</h5>
+                    <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
+                      <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "60%" }}></div>
+                    </div>
+                    <p className="self-end">6</p>
+                  </div>
+                  <div className="flex items-center gap-x-4">
+                    <h5 className="text-lg leading-4 font-medium w-[150px]">Poor</h5>
+                    <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
+                      <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "5%" }}></div>
+                    </div>
+                    <p>1</p>
                   </div>
                 </div>
               </div>
               <div className="">
-                <div className="flex items-center gap-x-4 mb-6">
-                  <h5 className="text-lg leading-4 font-medium w-[150px]">Excellent</h5>
-                  <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
-                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "100%" }}></div>
-                  </div>
-                  <p>100</p>
-                </div>
-                <div className="flex items-center gap-x-4 mb-6">
-                  <h5 className="text-lg leading-4 font-medium w-[150px]">Good</h5>
-                  <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
-                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "80%" }}></div>
-                  </div>
-                  <p>8</p>
-                </div>
-                <div className="flex items-center gap-x-4 mb-6">
-                  <h5 className="text-lg leading-4 font-medium w-[150px]">Average</h5>
-                  <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
-                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "70%" }}></div>
-                  </div>
-                  <p>7</p>
-                </div>
-                <div className="flex items-center gap-x-4 mb-6">
-                  <h5 className="text-lg leading-4 font-medium w-[150px]">Below Average</h5>
-                  <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
-                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "60%" }}></div>
-                  </div>
-                  <p className="self-end">6</p>
-                </div>
-                <div className="flex items-center gap-x-4">
-                  <h5 className="text-lg leading-4 font-medium w-[150px]">Poor</h5>
-                  <div className="w-[664px] bg-[#D9D9D9] rounded-full h-[5px] dark:bg-gray-700">
-                    <div className="bg-[#FFB547] h-[5px] rounded-full" style={{ width: "5%" }}></div>
-                  </div>
-                  <p>1</p>
-                </div>
+                <input type="text" placeholder="Leave Comment" className="text-sm leading-4 tracking-[-0.5%] w-full border border-[#CECECE] outline-none rounded-xl py-6 px-4 mb-8" />
               </div>
             </div>
-            <div className="">
-              <input type="text" placeholder="Leave Comment" className="text-sm leading-4 tracking-[-0.5%] w-full border border-[#CECECE] outline-none rounded-xl py-6 px-4 mb-8" />
+            {/* comment_part */}
+            <div className="flex gap-x-5 bg-[#FAFAFA] py-6 pr-7 pl-4 rounded-xl mb-6">
+              <div className="">
+                <img src={UserPic} alt="" />
+              </div>
+              <div className="w-[1000px]">
+                <div className="flex items-center justify-between mb-2">
+                  <h6 className="text-[17px] leading-6 font-bold">Ronald Richards</h6>
+                  <p className="text-sm leading-4 font-medium">24 January,2025</p>
+                </div>
+                <div className="flex items-center text-[#FFB547] w-[116px] mb-2">
+                  <FaStar size={24} />
+                  <FaStar size={24} />
+                  <FaStar size={24} />
+                  <FaStar size={24} />
+                  <FaStar size={24} />
+                </div>
+                <p className="text-[15px] leading-6 font-medium text-[#7E7E7E]">I was a bit nervous to be buying a secondhand phone from Amazon, but I couldn’t be happier with my purchase!! I have a pre-paid data plan so I was worried that this phone wouldn’t connect with my data plan, since the new phones don’t have the physical Sim tray anymore, but couldn’t have been easier! I bought an Unlocked black iPhone 14 Pro Max in excellent condition and everything is PERFECT. It was super easy to set up and the phone works and looks great. It truly was in excellent condition. Highly recommend!!!🖤</p>
+
+              </div>
+            </div>
+            <div className="flex gap-x-5 bg-[#FAFAFA] py-6 pr-7 pl-4 rounded-xl mb-6">
+              <div className="">
+                <img src={UserPic2} alt="" />
+              </div>
+              <div className="w-[1000px]">
+                <div className="flex items-center justify-between mb-2">
+                  <h6 className="text-[17px] leading-6 font-bold">Grace Carey</h6>
+                  <p className="text-sm leading-4 font-medium">02 March,2025</p>
+                </div>
+                <div className="flex items-center text-[#FFB547] w-[116px] mb-2">
+                  <FaStar size={24} />
+                  <FaStar size={24} />
+                  <FaStar size={24} />
+                  <FaStar size={24} />
+                  <FaRegStarHalfStroke size={24} />
+                </div>
+                <p className="text-[15px] leading-6 font-medium text-[#7E7E7E]">This phone has 1T storage and is durable. Plus all the new iPhones have a C port! Apple is phasing out the current ones! (All about the Benjamin’s) So if you want a phone that’s going to last grab an iPhone 14 pro max and get several cords and plugs.</p>
+
+              </div>
+            </div>
+            <div className="flex gap-x-5 bg-[#FAFAFA] py-6 pr-7 pl-4 rounded-xl mb-6">
+              <div className="">
+                <img src={UserPic3} alt="" />
+              </div>
+              <div className="w-[1000px]">
+                <div className="flex items-center justify-between mb-2">
+                  <h6 className="text-[17px] leading-6 font-bold">Darcy King</h6>
+                  <p className="text-sm leading-4 font-medium">28 December,2024</p>
+                </div>
+                <div className="flex items-center text-[#FFB547] w-[116px] mb-2">
+                  <FaStar size={24} />
+                  <FaStar size={24} />
+                  <FaStar size={24} />
+                  <FaStar size={24} />
+                  <FaRegStar size={24} />
+                </div>
+                <p className="text-[15px] leading-6 font-medium text-[#7E7E7E] mb-2">I might be the only one to say this but the camera is a little funky. Hoping it will change with a software update: otherwise, love this phone! Came in great condition</p>
+                <div className="flex items-center gap-x-2">
+                  <img src={Review1P} alt="" />
+                  <img src={Review2P} alt="" />
+                </div>
+
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <button className="flex items-center gap-x-2 justify-center border px-12 py-3 rounded-xl  cursor-pointer">
+                View More
+                <IoIosArrowDown size={24} />
+              </button>
             </div>
           </div>
-          {/* comment_part */}
-          <div className="flex gap-x-5 bg-[#FAFAFA] py-6 pr-7 pl-4 rounded-xl mb-6">
-            <div className="">
-              <img src={UserPic} alt="" />
-            </div>
-            <div className="w-[1000px]">
-              <div className="flex items-center justify-between mb-2">
-                <h6 className="text-[17px] leading-6 font-bold">Ronald Richards</h6>
-                <p className="text-sm leading-4 font-medium">24 January,2025</p>
-              </div>
-              <div className="flex items-center text-[#FFB547] w-[116px] mb-2">
-                <FaStar size={24} />
-                <FaStar size={24} />
-                <FaStar size={24} />
-                <FaStar size={24} />
-                <FaStar size={24} />
-              </div>
-              <p className="text-[15px] leading-6 font-medium text-[#7E7E7E]">I was a bit nervous to be buying a secondhand phone from Amazon, but I couldn’t be happier with my purchase!! I have a pre-paid data plan so I was worried that this phone wouldn’t connect with my data plan, since the new phones don’t have the physical Sim tray anymore, but couldn’t have been easier! I bought an Unlocked black iPhone 14 Pro Max in excellent condition and everything is PERFECT. It was super easy to set up and the phone works and looks great. It truly was in excellent condition. Highly recommend!!!🖤</p>
-
-            </div>
-          </div>
-          <div className="flex gap-x-5 bg-[#FAFAFA] py-6 pr-7 pl-4 rounded-xl mb-6">
-            <div className="">
-              <img src={UserPic2} alt="" />
-            </div>
-            <div className="w-[1000px]">
-              <div className="flex items-center justify-between mb-2">
-                <h6 className="text-[17px] leading-6 font-bold">Grace Carey</h6>
-                <p className="text-sm leading-4 font-medium">02 March,2025</p>
-              </div>
-              <div className="flex items-center text-[#FFB547] w-[116px] mb-2">
-                <FaStar size={24} />
-                <FaStar size={24} />
-                <FaStar size={24} />
-                <FaStar size={24} />
-                <FaRegStarHalfStroke size={24} />
-              </div>
-              <p className="text-[15px] leading-6 font-medium text-[#7E7E7E]">This phone has 1T storage and is durable. Plus all the new iPhones have a C port! Apple is phasing out the current ones! (All about the Benjamin’s) So if you want a phone that’s going to last grab an iPhone 14 pro max and get several cords and plugs.</p>
-
-            </div>
-          </div>
-          <div className="flex gap-x-5 bg-[#FAFAFA] py-6 pr-7 pl-4 rounded-xl mb-6">
-            <div className="">
-              <img src={UserPic3} alt="" />
-            </div>
-            <div className="w-[1000px]">
-              <div className="flex items-center justify-between mb-2">
-                <h6 className="text-[17px] leading-6 font-bold">Darcy King</h6>
-                <p className="text-sm leading-4 font-medium">28 December,2024</p>
-              </div>
-              <div className="flex items-center text-[#FFB547] w-[116px] mb-2">
-                <FaStar size={24} />
-                <FaStar size={24} />
-                <FaStar size={24} />
-                <FaStar size={24} />
-                <FaRegStar size={24} />
-              </div>
-              <p className="text-[15px] leading-6 font-medium text-[#7E7E7E] mb-2">I might be the only one to say this but the camera is a little funky. Hoping it will change with a software update: otherwise, love this phone! Came in great condition</p>
-              <div className="flex items-center gap-x-2">
-                <img src={Review1P} alt="" />
-                <img src={Review2P} alt="" />
-              </div>
-
+          <div className="py-[80px]">
+            <div className="mb-8"><h4 className="font-medium text-2xl leading-8">Related Products</h4></div>
+            <div className="flex items-center gap-x-4">
+              <Product />
+              <Product />
+              <Product />
+              <Product />
             </div>
           </div>
         </div>

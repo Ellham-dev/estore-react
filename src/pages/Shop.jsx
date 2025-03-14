@@ -1,8 +1,8 @@
 import { MdArrowForwardIos } from "react-icons/md";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
-
 import Product from "../components/Product";
 import Sidebar from "../components/Sidebar";
+import { Link } from "react-router";
 
 const Shop = () => {
     return (
@@ -21,7 +21,7 @@ const Shop = () => {
                     </div>
 
                     <div className="flex gap-8">
-                        <Sidebar/>
+                        <Sidebar />
 
                         {/* Products Part  */}
                         <div className="flex-1">
@@ -36,23 +36,48 @@ const Shop = () => {
                                 </div>
                             </div>
                             <div className="flex items-center gap-y-6 flex-wrap justify-between">
-                                <Product />
-                                <Product />
-                                <Product />
-                                <Product />
-                                <Product />
-                                <Product />
-                                <Product />
-                                <Product />
-                                <Product />
-                                <Product />
-                                <Product />
-                                <Product />
+                                <Link to={'product'}>
+                                    <Product />
+                                </Link>
+                                <Link to={'product'}>
+                                    <Product />
+                                </Link>
+                                <Link to={'product'}>
+                                    <Product />
+                                </Link>
+                                <Link to={'product'}>
+                                    <Product />
+                                </Link>
+                                <Link to={'product'}>
+                                    <Product />
+                                </Link>
+                                <Link to={'product'}>
+                                    <Product />
+                                </Link>
+                                <Link to={'product'}>
+                                    <Product />
+                                </Link>
+                                <Link to={'product'}>
+                                    <Product />
+                                </Link>
+                                <Link to={'product'}>
+                                    <Product />
+                                </Link>
+                                <Link to={'product'}>
+                                    <Product />
+                                </Link>
+                                <Link to={'product'}>
+                                    <Product />
+                                </Link>
+                                <Link to={'product'}>
+                                    <Product />
+                                </Link>
+                                
                             </div>
                         </div>
                     </div>
                     <div className="">
-                        
+
                     </div>
                 </div>
             </header>

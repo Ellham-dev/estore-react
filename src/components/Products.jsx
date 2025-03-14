@@ -1,4 +1,5 @@
 import Product from "./Product"
+import { Link } from "react-router";
 
 
 const Products = () => {
@@ -15,7 +16,7 @@ const Products = () => {
               </ul>
             </div>
             <div className="flex justify-between gap-y-5 flex-wrap">
-             <Product/>
+             <Link to={"product"}><Product/></Link>
              <Product/>
              <Product/>
              <Product/>
