@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 import Product from "./Product"
 
 
@@ -11,10 +12,11 @@ const Discount = () => {
               <h5 className="font-medium text-2xl leading-8">Discounts up to -50%</h5>
             </div>
             <div className="flex gap-x-4">
-              <Product/>
-              <Product/>
-              <Product/>
-              <Product/>
+              
+              <Link to={"product"}><Product/></Link>
+              <Link to={"product"}><Product/></Link>
+              <Link to={"product"}><Product/></Link>
+              <Link to={"product"}><Product/></Link>
             </div>
           </div>
         </div>
