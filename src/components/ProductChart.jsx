@@ -6,7 +6,7 @@ const ProductChart = () => {
     return (
         <>
             <section>
-                <div className="flex items-center w-[536px] gap-x-[15px] mb-10">
+                <div className="flex items-center w-[536px] gap-x-[15px] mb-10 border-b-[0.5px] border-[#B5B5B5] h-[135px]">
                     <div className="">
                         <img src={Iphone_14pro} alt="" className='w-[90px]' />
                     </div>
