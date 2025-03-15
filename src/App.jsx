@@ -6,6 +6,7 @@ import Home from "./pages/Home"
 import RootLayout from "./layout/RootLayout"
 import Shop from "./pages/Shop"
 import SinglePageProduct from "./components/SinglePageProduct"
+import Chart from "./components/Chart"
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="shop" element={<Shop/>}/>
         <Route path="shop/product" element={<SinglePageProduct/>}/>
         <Route path="product" element={<SinglePageProduct/>}/>
+        <Route path="chart" element={<Chart/>}/>
         </Route>
       </Routes>
     </>
