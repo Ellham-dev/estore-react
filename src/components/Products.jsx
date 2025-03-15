@@ -17,13 +17,13 @@ const Products = () => {
             </div>
             <div className="flex justify-between gap-y-5 flex-wrap">
              <Link to={"product"}><Product/></Link>
-             <Product/>
-             <Product/>
-             <Product/>
-             <Product/>
-             <Product/>
-             <Product/>
-             <Product/>
+             <Link to={"product"}><Product/></Link>
+             <Link to={"product"}><Product/></Link>
+             <Link to={"product"}><Product/></Link>
+             <Link to={"product"}><Product/></Link>
+             <Link to={"product"}><Product/></Link>
+             <Link to={"product"}><Product/></Link>
+             <Link to={"product"}><Product/></Link>
             </div>
           </div>
         </div>
