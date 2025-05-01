@@ -1,5 +1,9 @@
 import Product from "./Product"
 import { Link } from "react-router";
+import IphoneImg from '/pro.png'
+import Watch1 from '/Watch1.png'
+import Cemera1 from '/Cemera1.png'
+import Headphone1 from '/Headphone1.png'
 
 
 const Products = () => {
@@ -16,14 +20,14 @@ const Products = () => {
               </ul>
             </div>
             <div className="flex justify-between gap-y-5 flex-wrap">
-             <Link to={"product"}><Product/></Link>
-             <Link to={"product"}><Product/></Link>
-             <Link to={"product"}><Product/></Link>
-             <Link to={"product"}><Product/></Link>
-             <Link to={"product"}><Product/></Link>
-             <Link to={"product"}><Product/></Link>
-             <Link to={"product"}><Product/></Link>
-             <Link to={"product"}><Product/></Link>
+              <Link to={"product"}><Product Src={IphoneImg} text={"Apple iPhone 14 Pro Max 128GB Deep Purple"} Price={900} /></Link>
+              <Link to={"product"}><Product Src={Cemera1} text={"Blackmagic Pocket Cinema Camera 6k"} Price={2335} /></Link>
+              <Link to={"product"}><Product Src={Watch1} text={"Apple Watch Series 9 GPS 41mm Starlight Aluminium "} Price={345} /></Link>
+              <Link to={"product"}><Product Src={Headphone1} text={"AirPods Max Silver Starlight Aluminium"} Price={564}/></Link>
+              <Link to={"product"}><Product Src={IphoneImg} text={"Apple iPhone 14 Pro Max 128GB Deep Purple"} Price={900} /></Link>
+              <Link to={"product"}><Product Src={IphoneImg} text={"Apple iPhone 14 Pro Max 128GB Deep Purple"} Price={900} /></Link>
+              <Link to={"product"}><Product Src={IphoneImg} text={"Apple iPhone 14 Pro Max 128GB Deep Purple"} Price={900} /></Link>
+              <Link to={"product"}><Product Src={IphoneImg} text={"Apple iPhone 14 Pro Max 128GB Deep Purple"} Price={900} /></Link>
             </div>
           </div>
         </div>

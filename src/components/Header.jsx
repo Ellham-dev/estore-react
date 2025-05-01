@@ -9,7 +9,7 @@ import { Link, NavLink } from "react-router"
 const Header = () => {
   return (
     <>
-      <header id="header" className=" bg-white">
+      <header id="header" className=" bg-white border-b border-[#B5B5B5]">
         <div className="max-w-[1120px] mx-auto flex items-center  justify-between h-[88px] gap-x-14">
           {/* logo */}
           <div className="logo">
