@@ -1,4 +1,5 @@
 import PopularProduct from './PopularProduct'
+import IpedPro from '/IpedPro.png'
 
 
 const ProductsGrid = () => {
@@ -9,7 +10,7 @@ const ProductsGrid = () => {
             <PopularProduct />
             <PopularProduct  className="bg-[#F9F9F9]"/>
             <PopularProduct className="bg-[#EAEAEA]" />
-            <PopularProduct  className="bg-[#2C2C2C] text-white"/>
+            <PopularProduct  className="bg-[#2C2C2C] text-white" GridHeadText={"jdkdv"} GridSrc={IpedPro} GridPeraText={"egfyufghfbv"}/>
           </div>
       </section>
     </>

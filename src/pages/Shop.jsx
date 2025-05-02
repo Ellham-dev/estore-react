@@ -3,6 +3,14 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import Product from "../components/Product";
 import Sidebar from "../components/Sidebar";
 import { Link } from "react-router";
+import IphoneImg from '/pro.png'
+import Watch1 from '/Watch1.png'
+import Cemera1 from '/Cemera1.png'
+import Headphone1 from '/Headphone1.png'
+import Watch2 from '/Watch2.png'
+import GalaxyZ from '/GalaxyZ.png'
+import GalaxyBuds1 from '/GalaxyBuds1.png'
+import Iped1 from '/Iped1.png'
 
 const Shop = () => {
     return (
@@ -37,40 +45,40 @@ const Shop = () => {
                             </div>
                             <div className="flex items-center gap-y-6 flex-wrap justify-between">
                                 <Link to={'product'}>
-                                    <Product />
+                                    <Product Src={IphoneImg} text={"Apple iPhone 14 Pro Max 128GB Deep Purple"} Price={900} />
                                 </Link>
                                 <Link to={'product'}>
-                                    <Product />
+                                    <Product Src={Cemera1} text={"Blackmagic Pocket Cinema Camera 6k"} Price={2335} />
                                 </Link>
                                 <Link to={'product'}>
-                                    <Product />
+                                    <Product Src={Watch1} text={"Apple Watch Series 9 GPS 41mm Starlight Aluminium "} Price={345} />
                                 </Link>
                                 <Link to={'product'}>
-                                    <Product />
+                                    <Product Src={Headphone1} text={"AirPods Max Silver Starlight Aluminium"} Price={564} />
                                 </Link>
                                 <Link to={'product'}>
-                                    <Product />
+                                    <Product Src={Watch2} text={"Samsung Galaxy Watch6 Classic 47mm Black"} Price={364} />
                                 </Link>
                                 <Link to={'product'}>
-                                    <Product />
+                                    <Product Src={GalaxyBuds1} text={"Galaxy Buds FE Graphite 47mm Black"} Price={99} />
                                 </Link>
                                 <Link to={'product'}>
-                                    <Product />
+                                    <Product Src={Iped1} text={'Apple iPad 9 10.2" 64GB Wi-Fi Silver (MK2L3) 2021'} Price={399} />
                                 </Link>
                                 <Link to={'product'}>
-                                    <Product />
+                                    <Product Src={GalaxyZ} text={"Galaxy Z Fold5 Unlocked | 256GB | Phantom Black"} Price={1790} />
                                 </Link>
                                 <Link to={'product'}>
-                                    <Product />
+                                    <Product Src={Cemera1} text={"Blackmagic Pocket Cinema Camera 6k"} Price={2335} />
                                 </Link>
                                 <Link to={'product'}>
-                                    <Product />
+                                    <Product Src={Headphone1} text={"AirPods Max Silver Starlight Aluminium"} Price={564} />
                                 </Link>
                                 <Link to={'product'}>
-                                    <Product />
+                                    <Product Src={Watch1} text={"Apple Watch Series 9 GPS 41mm Starlight Aluminium "} Price={345} />
                                 </Link>
                                 <Link to={'product'}>
-                                    <Product />
+                                    <Product Src={GalaxyZ} text={"Galaxy Z Fold5 Unlocked | 256GB | Phantom Black"} Price={1790} />
                                 </Link>
                                 
                             </div>
