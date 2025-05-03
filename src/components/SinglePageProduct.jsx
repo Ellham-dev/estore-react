@@ -19,6 +19,10 @@ import Review2P from "/Review2.png"
 import UserPic3 from "/User3.png"
 import UserPic2 from "/User2.png"
 import Product from "./Product"
+import IphoneImg from '/pro.png'
+import Watch1 from '/Watch1.png'
+import Cemera1 from '/Cemera1.png'
+import Headphone1 from '/Headphone1.png'
 
 
 const SinglePageProduct = () => {
@@ -58,7 +62,7 @@ const SinglePageProduct = () => {
                 <h3 className="text-[40px] font-bold leading-10 mb-6">Apple iPhone 14 Pro Max</h3>
                 <div className="flex items-center gap-x-4">
                   <p className="text-4xl font-medium leading-12">$1399</p>
-                  <p className="text-2xl leading-8">$1499</p>
+                  <p className="text-2xl leading-8 "><del>$1499</del></p>
                 </div>
               </div>
               <div className="flex items-center mb-6">
@@ -343,10 +347,22 @@ const SinglePageProduct = () => {
           <div className="py-[80px]">
             <div className="mb-8"><h4 className="font-medium text-2xl leading-8">Related Products</h4></div>
             <div className="flex items-center gap-x-4">
-              <Product />
-              <Product />
-              <Product />
-              <Product />
+              <Product 
+              Src={IphoneImg} 
+              text={"Apple iPhone 14 Pro Max 128GB Deep Purple"}
+              Price={900}/>
+              <Product 
+              Src={Watch1} 
+              text={"Apple Watch Series 9 GPS 41mm Starlight Aluminium "}
+              Price={345}/>
+              <Product 
+              Src={Cemera1} 
+              text={"Blackmagic Pocket Cinema Camera 6k"}
+              Price={2335}/>
+              <Product 
+              Src={Headphone1} 
+              text={"AirPods Max Silver Starlight Aluminium"}
+              Price={564}/>
             </div>
           </div>
         </div>
